@@ -1,0 +1,36 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+   <div>
+     <h1>Register page</h1>
+     <img src="../img/registered.png" alt="" width="150" /> 
+     <!-- Register form -->
+     <form>
+       <label for="user"> Your First name</label><br />
+       <input type="text"  name="user" required placeholder="Enter your first name"/><br />
+       <label for="user"> Your last name</label><br />
+       <input type="text"  name="user" required placeholder="Enter your last name"/><br />
+       <br></br>
+       <label for="mail">Your Mail</label><br>
+       <input type="email" placeholder="Enter your email" /><br />
+       <lable for="pass">Your password</lable><br />
+       <input type="password" name="pass"required placeholder="Enter your confirm password"/><br />
+       <input type="submit" value="login" />
+     </form>
+     <p>Can't remember your password/please <a herf="page/register.html"reset here  </p>
+     <p>Already have an account? please <a herf="../index.html">login here</a></p>
+   </div>
+
+
+</body>
+</html>
+       </head>
+</body>
+</html>
